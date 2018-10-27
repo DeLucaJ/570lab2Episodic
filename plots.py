@@ -65,8 +65,8 @@ escape_route = [
 	"through a secret passage",
 	"by teleporting to another plane"
 	"by transferring their soul to another body",
-	"turning into mist and flying away",
-	"using a henchmen as a meat-shield"
+	"by turning into mist and flying away",
+	"by using a henchman as a meat-shield"
 ]
 
 locations = [
@@ -101,7 +101,7 @@ challenges = [
 resolutions = [
 	"Despite The Party's efforts, The {villain} escaped {via}",
 	"After a grueling battle, The Party defeated The {villain}",
-	"After defeating The {villain}, The Party discoverd the true villain was The {villain2} all along",
+	"After defeating The {villain}, The Party discovered the true villain was The {villain2} all along",
 	"The Party could not defeat The {villain}. However, they managed to narrowly escape.",
 	"The fight was long and difficult, but when The Party finally got the upper hand they discovered the {villain} was only an illusion.",
 	"The Party decided to retreat when The {villain}'s ally, The {villain2} appeared with an army of {minions2}.",
