@@ -104,7 +104,7 @@ resolutions = [
 	"After defeating The {villain}, The Party discoverd the true villain was The {villain2} all along",
 	"The Party could not defeat The {villain}. However, they managed to narrowly escape.",
 	"The fight was long and difficult, but when The Party finally got the upper hand they discovered the {villain} was only an illusion.",
-	"The Party decided to retreat when The {villain}'s ally, The {villain2} appeared with an army of {minions2}."
+	"The Party decided to retreat when The {villain}'s ally, The {villain2} appeared with an army of {minions2}.",
 	"The Party defeated The {villain}, only to discover it was actually The {villain2}."
 ]
 
