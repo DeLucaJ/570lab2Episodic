@@ -1,6 +1,9 @@
 % Five Room Dungeon Grammar
 \documentclass{article}
 
+\usepackage{geometry}
+\geometry{letterpaper, portrait, margin=1in}
+
 \title{Five Room Dungeon - Grammar}
 \date{}
 
@@ -8,15 +11,37 @@
 
 \newcommand\ra{\ensuremath{\rightarrow}}
 
-\maketitle
+\begingroup
+\Large\centerline{\textbf{Five Room Dungeon - Grammar}}
+\endgroup
 
 \begin{eqnarray*}
 {\bf episode} & \ra & {\bf entrance}\ {\bf challenge}\ {\bf trick}\ {\bf climax}\ {\bf resolution}\\
-{\bf entrance} & \ra & {\bf example}\\
-{\bf challenge} & \ra & {\bf example}\\
-{\bf trick} & \ra & {\bf example}\\
-{\bf climax} & \ra & {\bf example}\\
-{\bf resolution} & \ra & {\bf example}\\
+{\bf entrance} & \ra & {\bf location}\ (\ {\bf guardian}\ |\ {\bf restricted}\ |\ {\bf trap}\ )\\\
+{\bf challenge} & \ra & {\bf puzzle}\ |\ {\bf roleplayEncounter}\\
+{\bf trick} & \ra & {\bf interuption}\ |\ {\bf redHerring}\ |\ {\bf trap}\ |\ {\bf restrictedGoal}\\
+{\bf climax} & \ra & The\ Party\ encounters\ {\bf boss}\ in\ {\bf environment}.\ but\ {\bf complication}\\
+{\bf resolution} & \ra & {\bf reward}\ |\ {\bf partyEscape}\ |\ {\bf bossEscape}\ |\ {\bf secret}\ |\ {\bf segue}\\
+{\bf guardian} & \ra & {\bf encounter}\\
+{\bf restricted} & \ra & {\bf puzzle}\ |\ {\bf physicalBarrier}\\
+{\bf redHerring} & \ra & SomethingHappensHere\\
+{\bf restrictedGoal} & \ra & The\ goal\ requires\ {\bf condition}\\
+{\bf complication} & \ra & {\bf interuption}\ |\ {\bf setback}\\
+{\bf interruption} & \ra & {\bf ambush}\ |\ {\bf encounter}\\
+{\bf ambush} & \ra & Suddenly,\ {\bf combatEncounter}\\
+{\bf encounter} & \ra & {\bf combatEncounter}\ |\ {\bf roleplayEncounter}\\
+{\bf combatEncounter} & \ra & The\ Party\ encounters\ {\bf enemy}\ in\ {\bf environment}\\
+{\bf roleplayEncounter} & \ra & The\ Party\ must\ {\bf action}\ the\ {\bf npc}\\
+{\bf boss} & \ra & bossA\ |\ bossB |\ bossC\\
+{\bf condition} & \ra & conditionA\ |\ conditionB\ |\ conditionC\\
+{\bf enemy} & \ra & enemyA\ |\ enemyB |\ enemyC\\
+{\bf environment} & \ra & environmentA\ |\ environmentB\ |\ environmentC\\
+{\bf location} & \ra & locationA\ locationB\ locationC\\
+{\bf npc} & \ra & npcA\ |\ npcB |\ npcC\\
+{\bf physicalBarrier} & \ra & physicalBarrierA\ |\ physicalBarrierB\ |\ physicalBarrierC\\
+{\bf puzzle} & \ra & puzzleA\ |\ puzzleB\ |\ puzzleC\\
+{\bf setback} & \ra & setbackA\ |\ setbackB\ |\ setbackC\\
+{\bf trap} & \ra & trapA\ |\ trapB\ |\ trapC\\
 \end{eqnarray*}
 
 \end{document}

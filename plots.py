@@ -1,19 +1,26 @@
 '''
 Title:		Five Room Dungeon Adventure Generator
 Author:		Joseph DeLuca
-Assignment:	CSC 570 | Lab 2 - Episodics
+Assignment:	CSC 570 | Lab 2 - Episodic
 Professor:	Dr. Foaad Khosmood
 Date:		October 2018
 '''
-# The terminal dictionary
-terminals = {
-	
-}
+# The terminals
+boss = ["bossA", "bossB", "bossC"],
+condition = ["conditionA", "conditionB", "conditionC"],
+enemy = ["enemyA", "enemyB", "enemyC"],
+environment = ["environmentA", "environmentB", "environmentC"],
+location = ["locationA", "locationB", "locationC"]
+npc = ["npcA", "npcB", "npcC"],
+physicalBarrier = ["physicalBarrierA", "physicalBarrierB", "physicalBarrierC"],
+puzzle = ["puzzleA", "puzzleB", "puzzleC"],
+setback = ["setbackA", "setbackB", "setbackC"],
+trap = ["trapA", "trapB", "trapC"]
 
 # Dungeon Entrance with a guardian
 def entrance():
 
-# Puzzle or Roleplaying Challenge
+# Puzzle or Role-playing Challenge
 def challenge():
 
 # Trick or Setback
@@ -28,7 +35,7 @@ def resolution():
 # The Beginning of the Grammar 
 def episode():
 
-	return "{0}{1}{2}{3}{4}".format(
+	return "{0} {1} {2} {3} {4}".format(
 		entrance(),
 		challenge(), 
 		trick(),
@@ -36,7 +43,7 @@ def episode():
 		resolution()
 	)
 
-# Main Funtion
+# Main Function
 def main():
 
 	plot = episode()
