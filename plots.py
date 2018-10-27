@@ -100,7 +100,7 @@ challenges = [
 
 resolutions = [
 	"Despite The Party's efforts, The {villain} escaped {via}",
-	"After a grueling battle, The Part defeated The {villain}",
+	"After a grueling battle, The Party defeated The {villain}",
 	"After defeating The {villain}, The Party discoverd the true villain was The {villain2} all along",
 	"The Party could not defeat The {villain}. However, they managed to narrowly escape.",
 	"The fight was long and difficult, but when The Party finally got the upper hand they discovered the villain was only an illusion.",
